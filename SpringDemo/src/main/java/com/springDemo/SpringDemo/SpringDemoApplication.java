@@ -12,10 +12,14 @@ public class SpringDemoApplication {
 
 		/*Normal Object
 		Alien obj = new Alien();
+		obj.code();
 		 */
 
 		Alien obj = context.getBean(Alien.class);
+		Alien obj1;
+		obj1 = context.getBean(Alien.class);
 		obj.code();
+		obj1.code();
 
 	}
 
