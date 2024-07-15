@@ -16,10 +16,14 @@ public class SpringDemoApplication {
 		 */
 
 		Alien obj = context.getBean(Alien.class);
-		Alien obj1;
-		obj1 = context.getBean(Alien.class);
 		obj.code();
+		/*Alien obj1;
+		obj1 = context.getBean(Alien.class);
 		obj1.code();
+		 */
+
+		//Laptop lap = context.getBean(Laptop.class);
+		//lap.compile();
 
 	}
 
